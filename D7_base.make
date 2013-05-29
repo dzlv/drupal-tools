@@ -56,10 +56,12 @@ projects[] = html5_tools
 projects[] = elements
 projects[] = ds
 projects[] = fences
+projects[] = magic
 
 # UI, JS
 projects[] = libraries
 projects[] = jquery_update
+projects[] = speedy
 projects[] = modernizr
 
 # Files, images
@@ -68,6 +70,8 @@ projects[] = filefield_paths
 projects[] = epsacrop
 projects[] = media
 projects[] = resp_img
+projects[] = picture
+projects[] = breakpoints
 
 # Project related
 # projects[] = menu_block
