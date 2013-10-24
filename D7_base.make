@@ -9,6 +9,7 @@ api = 2
 defaults[projects][subdir] = contrib
 
 projects[] = drupal
+projects[drupal][version] = 7
 
 # Essentials
 projects[] = views
@@ -72,6 +73,19 @@ projects[] = media
 projects[] = resp_img
 projects[] = picture
 projects[] = breakpoints
+
+# Overrite defaults folder
+projects[example][subdir] = custom
+
+# Libraries
+libraries[modernizr][download][type] = file
+libraries[modernizr][download][url] = http://modernizr.com/downloads/modernizr-latest.js
+libraries[modernizr][download][filename] = modernizr.min.js
+libraries[modernizr][destination] = libraries
+
+libraries[ckeditor][download][type] = get
+libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2.2/ckeditor_4.2.2_standard.tar.gs
+libraries[ckeditor][destination] = libraries
 
 # Project related
 # projects[] = menu_block
